@@ -35,4 +35,6 @@ dependencies {
     /* Design Library for Cordinator Layout and Toolbars */
     //noinspection GradleCompatible
     implementation 'com.android.support:design:25.3.1'
+    //BottomNavigationViewEx Library
+    implementation 'com.github.ittianyu:BottomNavigationViewEx:2.0.4'
 }

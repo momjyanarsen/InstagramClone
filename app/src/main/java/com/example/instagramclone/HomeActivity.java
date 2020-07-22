@@ -2,7 +2,14 @@ package com.example.instagramclone;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.icu.text.IDNA;
 import android.os.Bundle;
+import android.util.Log;
+
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
+
+import Utils.BottomNavigationViewHelper;
 
 public class HomeActivity extends AppCompatActivity {
 
@@ -10,5 +17,17 @@ public class HomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+        Log.i("Info", "onCreate: starting.");
+        setupBottomNavigationView();
+    }
+
+    /**
+     * BottomNavigationView setup
+     */
+    private void setupBottomNavigationView() {
+        Log.i("Info", "setupBottomNavigationView: setting up BottomNavigationView");
+        BottomNavigationViewEx bottomNavigationViewEx = (BottomNavigationViewEx) findViewById(R.id.bottomNavViewBar);
+        BottomNavigationViewHelper.setupBottomNavigationView(bottomNavigationViewEx);
+
     }
 }
