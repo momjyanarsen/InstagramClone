@@ -2,11 +2,9 @@ package com.example.instagramclone;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.icu.text.IDNA;
 import android.os.Bundle;
 import android.util.Log;
 
-import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 
 import Utils.BottomNavigationViewHelper;
