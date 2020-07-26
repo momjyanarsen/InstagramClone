@@ -1,18 +1,17 @@
 package com.example.instagramclone.Utils;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 import android.view.MenuItem;
 
 import androidx.annotation.NonNull;
-import com.example.instagramclone.HomeActivity;
-import com.example.instagramclone.LikesActivity;
-import com.example.instagramclone.ProfileActivity;
+import com.example.instagramclone.Home.HomeActivity;
+import com.example.instagramclone.Likes.LikesActivity;
+import com.example.instagramclone.Profile.ProfileActivity;
 import com.example.instagramclone.R;
-import com.example.instagramclone.SearchActivity;
-import com.example.instagramclone.ShareActivity;
+import com.example.instagramclone.Search.SearchActivity;
+import com.example.instagramclone.Share.ShareActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 

@@ -1,4 +1,4 @@
-package com.example.instagramclone;
+package com.example.instagramclone.Search;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -9,6 +9,7 @@ import android.view.MenuItem;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.instagramclone.R;
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 import com.example.instagramclone.Utils.BottomNavigationViewHelper;
 
