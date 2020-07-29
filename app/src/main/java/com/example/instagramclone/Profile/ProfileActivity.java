@@ -28,7 +28,7 @@ public class ProfileActivity extends AppCompatActivity {
         setContentView(R.layout.activity_profile);
         Log.i("INFO", "onCreat started");
 
-        //setupBottomNavigationView();
+        setupBottomNavigationView();
         setupToolbar();
     }
 
