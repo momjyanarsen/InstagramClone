@@ -37,7 +37,7 @@ public class HomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-        Log.i("INFO", "onCreate: starting.");
+        Log.i(TAG, "onCreate: starting.");
 
         setupFirebaseAuth();
 
@@ -131,6 +131,7 @@ public class HomeActivity extends AppCompatActivity {
     public void onStart() {
         super.onStart();
         mAuth.addAuthStateListener(mAuthListener);
+        checkCurrentUser(mAuth.getCurrentUser());
     }
 
     @Override
