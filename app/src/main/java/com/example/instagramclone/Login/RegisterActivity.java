@@ -44,7 +44,6 @@ public class RegisterActivity extends AppCompatActivity {
     /**
      *  Initialize the activity widgets
      */
-
     private void initWidgets() {
         Log.d(TAG, "initWidgets: Initializing Widgets");
         mEmail = (EditText) findViewById(R.id.input_email);
